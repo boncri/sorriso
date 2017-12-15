@@ -13,7 +13,7 @@ $(document).ready(function(){
 	        slidesPerView: 1,
 	        paginationClickable: true,
 	        loop: true,
-	        autoplay: 3000,
+	        autoplay: 5000,
 	        autoplayDisableOnInteraction: false
     	});
 	}

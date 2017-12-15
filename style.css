@@ -524,7 +524,7 @@ ul.gt_hdr3_scl_icon li a{
 	color: #949494;
     display: block;
     position: relative;
-    padding: 30px 25px;
+    padding: 30px 16px;
     z-index: 99;
     font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
@@ -724,7 +724,7 @@ ul.gt_hdr3_scl_icon li a{
 }
 .gt_banner_text h3{
 	font-size: 53px;
-	color: #737474;
+	color: #ff0;
 	line-height: 50px;
 	margin: 0px 0px 10px;
 	font-family: inherit;
@@ -735,6 +735,7 @@ ul.gt_hdr3_scl_icon li a{
 	font-family: inherit;
 	line-height: 70px;
 	margin: 0px 0px 10px;
+	color: #fff;
 }
 .gt_banner_text > a{
 	margin-right: 10px;
