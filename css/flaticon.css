@@ -36,9 +36,18 @@
       -moz-osx-font-smoothing: grayscale;
     }
     
-    .flaticon-hello-speech-bubble-handmade-chatting-symbol:before { content: "\f100"; }
-    .flaticon-thinking:before { content: "\f101"; }
-    .flaticon-music-player:before { content: "\f102"; }
-    .flaticon-artist:before { content: "\f103"; }
-    .flaticon-maths:before { content: "\f104"; }
-    .flaticon-blackboard:before { content: "\f105"; }
+.flaticon-letter:before { content: "\f100"; }
+.flaticon-donate:before { content: "\f101"; }
+.flaticon-hello-speech-bubble-handmade-chatting-symbol:before { content: "\f102"; }
+.flaticon-thinking:before { content: "\f103"; }
+.flaticon-music-player:before { content: "\f104"; }
+.flaticon-artist:before { content: "\f105"; }
+.flaticon-maths:before { content: "\f106"; }
+.flaticon-blackboard:before { content: "\f107"; }
+
+.flaticon-donate {
+  line-height: 48px;
+}
+.flaticon-letter {
+  line-height: 48px;
+}
