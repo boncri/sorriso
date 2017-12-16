@@ -722,9 +722,20 @@ ul.gt_hdr3_scl_icon li a{
 	font-family: 'Courgette', cursive;
 	position: absolute;
 }
+.gt_banner_text h4{
+	font-size: 32px;
+	color: #fec500;
+	line-height: 30px;
+	margin: 0px 0px 10px;
+	font-family: inherit;
+}
+.gt_banner_text h4.quote{
+	color: #e74100;
+	font-style: italic;
+}
 .gt_banner_text h3{
 	font-size: 53px;
-	color: #ff0;
+	color: #e74100;
 	line-height: 50px;
 	margin: 0px 0px 10px;
 	font-family: inherit;
@@ -735,7 +746,7 @@ ul.gt_hdr3_scl_icon li a{
 	font-family: inherit;
 	line-height: 70px;
 	margin: 0px 0px 10px;
-	color: #fff;
+	color: #fec500;
 }
 .gt_banner_text > a{
 	margin-right: 10px;
@@ -760,14 +771,14 @@ ul.gt_hdr3_scl_icon li a{
 	text-align: center;
 }
 .gt_slide_2{
-	top: 50%;
+	top: 5%;
 	left: 0px;
 	width: 100%;
-	text-align: center;
-	margin: -130px 0px 0px;
+	text-align: left;
+	margin: 0px 20px 0px;
 }
-.gt_slide_2 h2{
-	color: #f04e23;
+.gt_slide_2 h4{
+	color: #fec500;
 }
 .gt_slide_2 > a:hover{
 	border-color: #f04e23;
@@ -4375,3 +4386,15 @@ ul.gt_plan_offer_list li a{
 		   Select your Price and Plan Wrap End
 	  ============================================================
 */
+
+.gt_gallery_slider .gt_gallery_wrap {
+	width: 240px;
+	height: 180px;;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 0;
+}
+.gt_gallery_slider .gt_gallery_wrap img {
+	display: block;
+	width: 100%;
+}
