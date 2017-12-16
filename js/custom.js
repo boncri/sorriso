@@ -267,7 +267,12 @@ $(document).ready(function(){
 	  =======================================================================
 	*/
 	if($("a[data-rel^='prettyPhoto']").length){
-		$("a[data-rel^='prettyPhoto']").prettyPhoto();
+		$("a[data-rel^='prettyPhoto']").prettyPhoto(
+			{
+				social_tools: '',
+				//theme: 'light_rounded'
+			}
+		);
 	}
 	/*
 	  ==============================================================
@@ -418,6 +423,8 @@ $(document).ready(function(){
 		jQuery('ul#filterable-item-filter-1 a').on('click',function(e){	
 
 			jQuery(this).addClass("active");
+			jQuery(this).parents("li").siblings().removeClass("active");
+			jQuery(this).parents("li").addClass("active");
 			jQuery(this).parents("li").siblings().children("a").removeClass("active");
 			e.preventDefault();
 			var select_filter = jQuery(this).attr('data-value');
