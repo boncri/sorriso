@@ -1,4 +1,5 @@
-<? $gallery = read_gallery_summary() ?>
+<?php require_once("_global.php") ?>
+<?php $gallery = read_gallery_summary() ?>
 <section class="gt_gallery_bg">
     <!--Main Heading Wrap Start-->
     <div class="gt_hdg_1">
@@ -11,15 +12,15 @@
 
     <!--Gallery List Wrap Start-->
     <div class="gt_gallery_slider" id="gt_gallery_slider">
-        <? foreach($gallery as $image) { ?>
-            <? if($image->summary) { ?>
+        <?php foreach($gallery as $image) { ?>
+            <?php if($image->summary) { ?>
             <div class="item">
                 <div class="gt_gallery_wrap">
                     <img src="<?=$image->img?>" alt="">
                 </div>
             </div>
-            <? } ?>
-        <? } ?>
+            <?php } ?>
+        <?php } ?>
     </div>
     <!--Gallery List Wrap End-->
 </section>

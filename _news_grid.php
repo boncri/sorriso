@@ -1,4 +1,5 @@
-<? 
+<?php require_once("_global.php") ?>
+<?php 
     $news = read_news();
 
     if(isset($pagination)) {
@@ -17,7 +18,7 @@
 <section>
     <div class="container">
         <div class="row">
-            <? foreach($news as $item) { ?>
+            <?php foreach($news as $item) { ?>
             <div class="col-md-4 col-md-6">
                 <div class="gt_blog_wrap mb">
                     <figure>
@@ -33,21 +34,21 @@
                     </div>
                 </div>
             </div>
-            <? } ?>
+            <?php } ?>
             <!--Pagination Wrap Start-->
-            <? if (isset($pagination)) { ?>
+            <?php if (isset($pagination)) { ?>
             <div class="gt_pagination_outer_wrap">
                 <ul>
-                    <? if($pagination['current'] > 1) { ?>
+                    <?php if($pagination['current'] > 1) { ?>
                     <li><a href="eventi.php?page=<?=$pagination['current']-1?>"><i class="fa fa-angle-double-left"></i></a></li>
-                    <? } ?>
-                    <li class="active"><a href="eventi.html"><?=$pagination['current']?></a></li>
-                    <? if($pagination['current'] < $pagination['pages']) { ?>
+                    <?php } ?>
+                    <li class="active"><a href="eventi.php"><?=$pagination['current']?></a></li>
+                    <?php if($pagination['current'] < $pagination['pages']) { ?>
                     <li><a href="eventi.php?page=<?=$pagination['current']+1?>"><i class="fa fa-angle-double-right"></i></a></li>
-                    <? } ?>
+                    <?php } ?>
                 </ul>
             </div>
-            <? } ?>
+            <?php } ?>
             <!--Pagination Wrap End-->
         </div>
     </div>

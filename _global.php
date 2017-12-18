@@ -3,7 +3,7 @@ setlocale(LC_ALL, 'it_IT');
 
 # Configuration
 $menu = [
-        'Home' => ['index.html', null],
+        'Home' => ['index.php', null],
         'Chi Siamo' => ['chi.siamo.html', null],
         'La Scuola' => [null, [
             'La giornata tipo' => ['giornata-tipo.html', null],
@@ -12,20 +12,20 @@ $menu = [
             ]
         ],
         'Il Metodo' => ['metodo.html',null],
-        'Eventi' => ['eventi.html',null],
+        'Eventi' => ['eventi.php',null],
         'Galleria' => ['gallery.html',null],
         'Sostienici' => ['donazioni.html',null],
         'Contatti' => ['contatti.html',null]        
     ];
 
     function format_date_medium($datetime) {
-      return strftime('%d %b %Y', $datetime->getTimestamp());
+      return isset($datetime) ? strftime('%d %b %Y', $datetime->getTimestamp()) : '---';
     }
     function format_date_long($datetime) {
-      return strftime('%d %B %Y', $datetime->getTimestamp());
+      return isset($datetime) ? strftime('%d %B %Y', $datetime->getTimestamp()) : '---';
     }
     function format_time($datetime) {
-      return strftime('%H.%M', $datetime->getTimestamp());
+      return isset($datetime) ? strftime('%H.%M', $datetime->getTimestamp()) : '---';
     }
         
     function create_menu($start) {

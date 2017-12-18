@@ -4,12 +4,12 @@
     ];
 ?>
 
-<? require('_global.php'); ?>
+<?php require_once('_global.php'); ?>
 
 <!DOCTYPE html>
 <html lang="it">
     <?php
-    require('_head.php');
+    require_once('_head.php');
     ?>
 
   <body>
@@ -18,11 +18,11 @@
 <div class="gt_wrapper">
 
     <!--Header Wrap Start-->
-    <? require('_body_header.php'); ?>
+    <?php require_once('_body_header.php'); ?>
     <!--Header Wrap End-->
 
     <!--Banner Wrap Start-->
-    <? require('_banner.php'); ?>
+    <?php require_once('_banner.php'); ?>
     <!--Banner Wrap End-->
 
     <!--Main Content Wrap Start-->
@@ -73,11 +73,11 @@
         <!--Banner Services Wrap End-->
                 
         <!--Latest News Wrap Start-->
-        <? require('_latest_news.php'); ?>
+        <?php require_once('_latest_news.php'); ?>
         <!--Latest News Wrap End-->
 
         <!--Our Gallery Wrap Start-->
-        <? require('_gallery.php'); ?>
+        <?php require_once('_gallery.php'); ?>
         <!--Our Gallery Wrap End-->
         
         <!--Our Sponsors Wrap Start-->
@@ -139,11 +139,11 @@
     <!--Main Content Wrap End-->
     
     <!--Footer Wrap Start-->
-    <? require('_footer.php') ?>
+    <?php require_once('_footer.php') ?>
     <!--Footer Wrap End-->
     
     <!--Back to Top Wrap Start-->
-    <? require('_back_to_top.php') ?>
+    <?php require_once('_back_to_top.php') ?>
     <!--Back to Top Wrap Start-->
 
 </div>

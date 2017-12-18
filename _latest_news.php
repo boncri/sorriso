@@ -1,4 +1,5 @@
-<? $news = read_news(); ?>
+<?php require_once("_global.php") ?>
+<?php $news = read_news(); ?>
 <section class="gt_news_bg">
     <div class="container">
         <!--Main Heading Wrap Start-->
@@ -12,7 +13,7 @@
 
         <!--Latest News Wrap Start-->
         <div class="gt_news_slider" id="gt_news_slider">
-            <? foreach($news as $n) { ?>
+            <?php foreach($news as $n) { ?>
             <div class="item">
                 <div class="gt_blog_wrap">
                     <figure>
@@ -22,13 +23,13 @@
                         <ul class="gt_blog_meta">
                             <li><i class="fa fa-calendar"></i><?=format_date_medium($n->from)?></li>
                         </ul>
-                        <h5><a href="<?link_news($n)?>"><?=$n->title?></a></h5>
+                        <h5><a href="<?php link_news($n)?>"><?=$n->title ?></a></h5>
                         <p><?=$n->summary?></p>
                         <a href="<?=link_news($n)?>">Leggi <i class="fa fa-arrow-circle-o-right"></i></a>
                     </div>
                 </div>
             </div>
-            <?}?>
+            <?php } ?>
         </div>
         <!--Latest News Wrap End-->
 

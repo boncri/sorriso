@@ -1,3 +1,4 @@
+<?php require_once("_global.php") ?>
 <section>
     <div class="container">
         <div class="row">

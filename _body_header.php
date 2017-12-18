@@ -1,3 +1,4 @@
+<?php require_once("_global.php") ?>
 <header>        
     <div class="gt_top3_menu default_width">
         <div class="container">
