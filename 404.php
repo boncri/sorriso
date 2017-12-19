@@ -36,7 +36,7 @@
                         </div>
                         <div class="gt_404_text">
                             <p>Oops... Pagina non trovata</p>
-                            <a href="index.html">Torna all'indice</a>
+                            <a href="index.php">Torna all'indice</a>
                         </div>
                     </div>
                 </div>
