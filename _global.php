@@ -4,7 +4,7 @@ setlocale(LC_ALL, 'it_IT');
 # Configuration
 $menu = [
         'Home' => ['index.php', null],
-        'Chi Siamo' => ['chi.siamo.html', null],
+        'Chi Siamo' => ['chi-siamo.php', null],
         'La Scuola' => [null, [
             'La giornata tipo' => ['giornata-tipo.html', null],
             'La didattica' => ['materie.html', null],

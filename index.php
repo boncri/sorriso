@@ -8,9 +8,7 @@
 
 <!DOCTYPE html>
 <html lang="it">
-    <?php
-    require_once('_head.php');
-    ?>
+    <?php require_once('_head.php'); ?>
 
   <body>
 
