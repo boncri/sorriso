@@ -2583,6 +2583,7 @@ ul.gt_blog_meta li i{
 	font-size: 40px;
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	line-height: initial;
 }
 .gt_404_text a{
 	display: inline-block;

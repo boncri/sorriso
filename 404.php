@@ -1,7 +1,7 @@
 <?php
     $status = [
-        "cur_page": "Home"
-    ]
+        "cur_page" => "Home"
+    ];
 ?>
 
 <?php require_once('_global.php') ?>
