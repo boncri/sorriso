@@ -32,12 +32,13 @@ $menu = [
         global $status;
         foreach($start as $label => $item) {
             $class = ($status['cur_page'] == $label) ? "active" : "";
-            echo "<li class=\"$class\"><a href=\"" . $item[0] . "\">" . $label . "</a></li>";
+            echo "<li class=\"$class\"><a href=\"" . $item[0] . "\">" . $label . "</a>";
             if($item[1] != null) {
                 echo "<ul>";
                 create_menu($item[1]);
                 echo "</ul>";
             }        
+            echo "</li>";
         }
     }
 
