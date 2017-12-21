@@ -1,0 +1,47 @@
+{
+  "home": {
+    "title": "Home",
+    "link": "index.php"
+  },
+  "chi-siamo": {
+    "title": "Chi Siamo",
+    "link": "chi-siamo.php"
+  },
+  "la-scuola": {
+    "title": "La Scuola",
+    "children": {
+      "giornata-tipo": {
+        "title": "La giornata tipo",
+        "link": "giornata-tipo.html"
+      },
+      "didattica": {
+        "title": "La didattica",
+        "link": "materiale.html"
+      },
+      "insegnanti": {
+        "title": "Gli insegnanti",
+        "link": "insegnanti.html"
+      }
+    }
+  },
+  "metodo": {
+    "title": "Il Metodo",
+    "link": "metodo.html"
+  },
+  "eventi": {
+    "title": "Eventi",
+    "Link": "eventi.php"
+  },
+  "galleria": {
+    "title": "Galleria",
+    "link": "galleria.html"
+  },
+  "sostienici": {
+    "title": "Sostienici",
+    "link": "donazioni.html"
+  },
+  "contatti": {
+    "title": "Contatti",
+    "link": "contatti.html"
+  }
+}

@@ -19,10 +19,6 @@
     <?php require_once('_body_header.php') ?>
     <!--Header Wrap End-->
 
-    <!--Sub Banner Wrap Start -->
-    <?php require_once('_sub_banner.php') ?>
-    <!--Sub Banner Wrap End -->
-
     <!--404 Wrap Start-->
     <div class="container">
         <div class="gt_404_outer_wrap default_width">
