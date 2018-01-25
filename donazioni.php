@@ -2,12 +2,13 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "Chi Siamo"
+    "cur_page" => "Sostienici",
+    "cur_page_title" => "Donazioni"
   ];
     
   $type = "subbanner";
 
-  $sections = [ "chisiamo" ];
+  $sections = [ "donazioni" ];
   
   include(template($type));
 ?>

@@ -1,70 +1,96 @@
-[
-  {
-    "img": "extra-images/gallery-01.jpg",
-    "summary": true
+{
+  "categories": {
+    "1": "A scuola",
+    "2": "All'aperto",
+    "3": "Struttura",
+    "4": "Materiali",
+    "5": "Eventi"
   },
-  {
-    "img": "extra-images/gallery-02.jpg",
-    "summary": true
-  },
-  {
-    "img": "extra-images/gallery-03.jpg",
-    "summary": true
-  },
-  {
-    "img": "extra-images/gallery-04.jpg",
-    "summary": true
-  },
-  {
-    "img": "extra-images/gallery-05.jpg",
-    "summary": true
-  },
-  {
-    "img": "extra-images/gallery-06.jpg",
-    "summary": true
-  },
-  {
-    "img": "extra-images/gallery-07.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-08.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-09.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-10.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-11.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-12.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-13.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-14.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-15.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-16.jpg",
-    "summary": false
-  },
-  {
-    "img": "extra-images/gallery-17.jpg",
-    "summary": false
-  }
-]
+  "images": [
+    {
+      "img": "extra-images/gallery-01.jpg",
+      "summary": true,
+      "categories": [ 5 ]
+    },
+    {
+      "img": "extra-images/gallery-02.jpg",
+      "summary": true,
+      "categories": [ 1, 4 ]
+    },
+    {
+      "img": "extra-images/gallery-03.jpg",
+      "summary": true,
+      "categories": [ 1, 4 ]
+    },
+    {
+      "img": "extra-images/gallery-04.jpg",
+      "summary": true,
+      "categories": [ 1 ] 
+    },
+    {
+      "img": "extra-images/gallery-05.jpg",
+      "summary": true,
+      "categories": [ 1, 4 ] 
+    },
+    {
+      "img": "extra-images/gallery-06.jpg",
+      "summary": true,
+      "categories": [ 2 ] 
+    },
+    {
+      "img": "extra-images/gallery-07.jpg",
+      "summary": false,
+      "categories": [ 1 ] 
+    },
+    {
+      "img": "extra-images/gallery-08.jpg",
+      "summary": false,
+      "categories": [ 2 ] 
+    },
+    {
+      "img": "extra-images/gallery-09.jpg",
+      "summary": false,
+      "categories": [ 2 ] 
+    },
+    {
+      "img": "extra-images/gallery-10.jpg",
+      "summary": false,
+      "categories": [ 1 ] 
+    },
+    {
+      "img": "extra-images/gallery-11.jpg",
+      "summary": false,
+      "categories": [ 1, 4 ] 
+    },
+    {
+      "img": "extra-images/gallery-12.jpg",
+      "summary": false,
+      "categories": [ 5 ] 
+    },
+    {
+      "img": "extra-images/gallery-13.jpg",
+      "summary": false,
+      "categories": [ 4 ] 
+    },
+    {
+      "img": "extra-images/gallery-14.jpg",
+      "summary": false,
+      "categories": [ 2 ] 
+    },
+    {
+      "img": "extra-images/gallery-15.jpg",
+      "summary": false,
+      "categories": [ 4 ] 
+    },
+    {
+      "img": "extra-images/gallery-16.jpg",
+      "summary": false,
+      "categories": [ 5 ] 
+    },
+    {
+      "img": "extra-images/gallery-17.jpg",
+      "summary": false,
+      "categories": [ 2 ] 
+    }
+  ]
+}

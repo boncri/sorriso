@@ -8,7 +8,7 @@
     
 <!DOCTYPE html>
 <html lang="it">
-    <?php require_once('_head.php'); ?>            
+    <?php require_once('_head.php'); ?>
   
     <body>
 
@@ -27,7 +27,7 @@
     <div class="gt_main_content_wrap">
         <?php
             foreach($sections as $section) {
-                include("_sec_".$section.".php");
+                include(section($section));
             }
         ?>
     </div>

@@ -2,12 +2,12 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "Chi Siamo"
+    "cur_page" => "La Giornata Tipo"
   ];
     
   $type = "subbanner";
 
-  $sections = [ "chisiamo" ];
+  $sections = [ "giornatatipo" ];
   
   include(template($type));
 ?>

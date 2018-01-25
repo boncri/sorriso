@@ -2,12 +2,12 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "Chi Siamo"
+    "cur_page" => "Gli Insegnanti",
   ];
     
   $type = "subbanner";
 
-  $sections = [ "chisiamo" ];
-  
+  $sections = [ "insegnanti" ];
+
   include(template($type));
 ?>

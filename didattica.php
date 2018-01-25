@@ -2,12 +2,12 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "Chi Siamo"
+    "cur_page" => "La Didattica"
   ];
     
   $type = "subbanner";
 
-  $sections = [ "chisiamo" ];
+  $sections = [ "didattica" ];
   
   include(template($type));
 ?>

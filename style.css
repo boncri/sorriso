@@ -3189,12 +3189,14 @@ ul.gt_rating_start li a{
 	float: left;
 	width: 70%;
 	position: relative;
-	margin: 30px 0px 40px;
+	margin: 0;
 }
 .event_detail_wrap h5{
 	text-transform: uppercase;
 	font-weight: 600;
+	font-size: 32px;
 	margin: 0px 0px 10px;
+	text-align: center;
 }
 .event_detail_wrap ul.countdown{
 	float: left;
@@ -3613,7 +3615,7 @@ ul.gt_rating_start li a{
 }
 .gt_sub_banner_hdg{
 	text-align: center;
-	padding: 80px 0px;
+	padding: 40px 0px;
 }
 .gt_sub_banner_hdg h3{
 	font-size: 36px;
@@ -4398,4 +4400,8 @@ ul.gt_plan_offer_list li a{
 .gt_gallery_slider .gt_gallery_wrap img {
 	display: block;
 	width: 100%;
+}
+
+.nopadding {
+	padding: 0;
 }

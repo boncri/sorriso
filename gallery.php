@@ -2,12 +2,13 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "Chi Siamo"
+    "cur_page" => "Galleria",
+    "cur_page_title" => "Le Nostre Foto"
   ];
     
   $type = "subbanner";
 
-  $sections = [ "chisiamo" ];
-  
+  $sections = [ "gallery" ];
+
   include(template($type));
 ?>

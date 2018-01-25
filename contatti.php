@@ -2,12 +2,12 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "Chi Siamo"
+    "cur_page" => "Contatti"
   ];
     
   $type = "subbanner";
 
-  $sections = [ "chisiamo" ];
+  $sections = [ "contatti" ];
   
   include(template($type));
 ?>

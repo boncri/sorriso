@@ -11,8 +11,6 @@
   $type = $_GET['type'];
 
   $sections = [ $_GET['section'] ];
-
-  $tpl = "_tpl_" . $type . ".php";
   
-  include($tpl);
+  include(template($type));
 ?>

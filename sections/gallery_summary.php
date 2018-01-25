@@ -13,13 +13,11 @@
     <!--Gallery List Wrap Start-->
     <div class="gt_gallery_slider" id="gt_gallery_slider">
         <?php foreach($gallery as $image) { ?>
-            <?php if($image->summary) { ?>
             <div class="item">
                 <div class="gt_gallery_wrap">
                     <img src="<?=$image->img?>" alt="">
                 </div>
             </div>
-            <?php } ?>
         <?php } ?>
     </div>
     <!--Gallery List Wrap End-->
