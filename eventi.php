@@ -1,6 +1,6 @@
 <?php
     $status = [
-        'cur_page' => 'Eventi'
+        'cur_page' => 'eventi'
     ];
 
     $pagination = [

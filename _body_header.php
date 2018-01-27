@@ -15,7 +15,7 @@
                 <!-- Responsive Buttun -->
                 <ul class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <?php
-                    create_menu($menu);
+                    create_menu();
                     ?>
                 </ul>
             </nav>

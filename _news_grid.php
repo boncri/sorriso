@@ -26,7 +26,7 @@
                     </figure>
                     <div class="gt_blog_des_wrap">
                         <ul class="gt_blog_meta">
-                            <li><i class="fa fa-calendar"></i><?=format_date_medium($item->from)?></li>
+                            <li><i class="fa fa-calendar"></i><?=format_date_medium($item->dt_from)?></li>
                         </ul>
                         <h5><a href="<?=link_news($item)?>"><?=$item->title?></a></h5>
                         <p><?=$item->summary?></p>

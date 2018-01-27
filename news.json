@@ -4,11 +4,10 @@
     "summary": "Torte a volontà!<br><br><br><br>",
     "img_summary": "extra-images/blog-03.jpg",
     "body": "Saremo davanti alla chiesa del Villaggio Violino con tante torte squisite.</p><p>Non lasciatevele scappare!",
-    "from": "2017-12-17T10:45:00Z",
-    "to": "2017-12-17T12:00:00Z",
+    "dt_from": "2017-12-17 10:45:00",
+    "dt_to": "2017-12-17 12:00:00",
     "address": "Chiesa del Villaggio Violino<br>Brescia",
     "img": "extra-images/course-detail-01.jpg",
-    "link": "20171217-mercatino.html",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d700.1118294492587!2d10.170154522630884!3d45.541726698689054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478176beb86cbc67%3A0xe0496ead924fe70c!2sVia+XXI+Quartiere+la+Famiglia%2C+25126+Brescia+BS!5e0!3m2!1sit!2sit!4v1513418627118"
   },
   {
@@ -16,11 +15,10 @@
     "summary": "Vi presentiamo la nostra scuola.<br>Vi aspettiamo a partire dalle 9.30<br><br><br>",
     "img_summary": "extra-images/blog-01.jpg",
     "body": "Venite insieme ai vostri bambini a conoscere da vicino la nostra scuola. Incontrerete le maestre, visiterete i nostri locali, scoprirete i materiali con cui lavoriamo.</p><p>Vi aspettiamo!",
-    "from": "2017-12-16T09:30:00Z",
-    "to": "2017-12-16T12:00:00Z",
+    "dt_from": "2017-12-16 09:30:00",
+    "dt_to": "2017-12-16 12:00:00",
     "address": "Via Prima 6<br>Q.re La Famiglia<br>Vill. Violino<br>Brescia",
     "img": "extra-images/course-detail-01.jpg",
-    "link": "20171216-open-day.html",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.2628298249456!2d10.17393591567667!3d45.54503807910191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478176bff9d93fd1%3A0x646bee3bf0eb0f51!2sVia+I+Quartiere+la+Famiglia%2C+6%2C+25126+Brescia+BS!5e0!3m2!1sit!2sit!4v1513416977792"
   },
   {
@@ -28,11 +26,10 @@
     "summary": "Sei interessato alla Scuola Primaria Montessoriana?<br><br><br>",
     "img_summary": "extra-images/blog-02.jpg",
     "body": "<p>Saremo davanti alla chiesa del Villaggio Violino con tante torte squisite.</p><p>Non lasciatevele scappare!</p>",
-    "from": "2017-11-16T20:30:00Z",
-    "to": "2017-11-16T22:30:00Z",
+    "dt_from": "2017-11-16 20:30:00",
+    "dt_to": "2017-11-16 22:30:00",
     "address": "Via Prima 6<br>Q.re La Famiglia<br>Vill. Violino<br>Brescia",
     "img": "extra-images/course-detail-01.jpg",
-    "link": "20171116-serata.html",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.2628298249456!2d10.17393591567667!3d45.54503807910191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478176bff9d93fd1%3A0x646bee3bf0eb0f51!2sVia+I+Quartiere+la+Famiglia%2C+6%2C+25126+Brescia+BS!5e0!3m2!1sit!2sit!4v1513416977792"
   }
 ]

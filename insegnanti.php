@@ -2,7 +2,7 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "Gli Insegnanti",
+    "cur_page" => "insegnanti",
   ];
     
   $type = "subbanner";

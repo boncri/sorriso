@@ -1,47 +1,76 @@
-{
-  "home": {
+[
+  { 
+    "name": "home",
     "title": "Home",
     "link": "index.php"
-  },
-  "chi-siamo": {
+  },  
+  {
+    "name": "chi-siamo",
     "title": "Chi Siamo",
-    "link": "chi-siamo.php"
+    "link": "chi-siamo.php"    
   },
-  "la-scuola": {
+  {
+    "name": "la-scuola",
     "title": "La Scuola",
-    "children": {
-      "giornata-tipo": {
+    "children": [
+      {
+        "name": "giornata-tipo",
         "title": "La giornata tipo",
-        "link": "giornata-tipo.html"
+        "link": "giornata-tipo.php"
       },
-      "didattica": {
+      {
+        "name": "didattica",
         "title": "La didattica",
-        "link": "materiale.html"
+        "link": "didattica.php"
       },
-      "insegnanti": {
+      {
+        "name": "insegnanti",
         "title": "Gli insegnanti",
-        "link": "insegnanti.html"
+        "link": "insegnanti.php"
       }
-    }
+    ]
   },
-  "metodo": {
+  {
+    "name": "metodo",
     "title": "Il Metodo",
-    "link": "metodo.html"
+    "link": "metodo.php"
   },
-  "eventi": {
+  {
+    "name": "eventi",
     "title": "Eventi",
-    "Link": "eventi.php"
+    "link": "eventi.php"
   },
-  "galleria": {
+  {
+    "name": "galleria",
     "title": "Galleria",
-    "link": "galleria.html"
+    "page_title": "Le Nostre Foto",
+    "link": "gallery.php"
   },
-  "sostienici": {
+  {
+    "name": "sostienici",
     "title": "Sostienici",
-    "link": "donazioni.html"
-  },
-  "contatti": {
-    "title": "Contatti",
-    "link": "contatti.html"
+    "page_title": "Donazioni",    
+    "link": "donazioni.php"
+  },  
+  {
+    "name": "info-iscrizioni",
+    "title": "Info & Iscrizioni",
+    "children": [      
+      {
+        "name": "contatti",
+        "title": "Contatti",
+        "link": "contatti.php"
+      },
+      {
+        "name": "iscrizioni",
+        "title": "Come iscriversi",
+        "link": "iscrizioni.php"
+      },
+      {
+        "name": "documenti",
+        "title": "Documenti",
+        "link": "documenti.php"
+      }
+    ]
   }
-}
+]

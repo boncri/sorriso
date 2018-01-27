@@ -2,7 +2,7 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "La Giornata Tipo"
+    "cur_page" => "giornata-tipo"
   ];
     
   $type = "subbanner";

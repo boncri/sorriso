@@ -18,14 +18,14 @@
                                 <i class="fa fa-calendar"></i>
                                 <div class="cls_spec_des">
                                     <h6>Data</h6>
-                                    <p><?=format_date_long($item->from)?></p>
+                                    <p><?=format_date_long($item->dt_from)?></p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fa fa-clock-o"></i>
                                 <div class="cls_spec_des">
                                     <h6>Orario</h6>
-                                    <p><?=format_time($item->from)?> - <?=format_time($item->to)?></p>
+                                    <p><?=format_time($item->from)?> - <?=format_time($item->dt_to)?></p>
                                 </div>
                             </li>
                             <li>

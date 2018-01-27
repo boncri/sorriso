@@ -2,8 +2,7 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "Galleria",
-    "cur_page_title" => "Le Nostre Foto"
+    "cur_page" => "galleria",
   ];
     
   $type = "subbanner";

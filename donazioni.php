@@ -2,8 +2,7 @@
   require_once('_global.php');
 
   $status = [
-    "cur_page" => "Sostienici",
-    "cur_page_title" => "Donazioni"
+    "cur_page" => "sostienici",    
   ];
     
   $type = "subbanner";

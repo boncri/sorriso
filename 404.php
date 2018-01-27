@@ -1,6 +1,6 @@
 <?php
     $status = [
-        "cur_page" => "Home"
+        "cur_page" => "home"
     ];
 ?>
 
