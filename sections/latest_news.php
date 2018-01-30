@@ -21,9 +21,9 @@
                     </figure>
                     <div class="gt_blog_des_wrap">
                         <ul class="gt_blog_meta">
-                            <li><i class="fa fa-calendar"></i><?=format_date_medium($n->from)?></li>
+                            <li><i class="fa fa-calendar"></i><?=format_date_medium($n->dt_from)?></li>
                         </ul>
-                        <h5><a href="<?php link_news($n)?>"><?=$n->title ?></a></h5>
+                        <h5><a href="<?=link_news($n)?>"><?=$n->title ?></a></h5>
                         <p><?=$n->summary?></p>
                         <a href="<?=link_news($n)?>">Leggi <i class="fa fa-arrow-circle-o-right"></i></a>
                     </div>

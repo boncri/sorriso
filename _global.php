@@ -2,7 +2,7 @@
   setlocale(LC_ALL, 'it_IT');
 
   spl_autoload_register(function ($class_name) {
-    include 'classes/' . $class_name . '.php';
+    include 'classes/' . strtolower($class_name) . '.php';
   });
 
   require_once('config.inc.php');
