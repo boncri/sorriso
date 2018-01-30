@@ -30,6 +30,10 @@
 
     return $status['cur_page'] == $item->name;
   }
+
+  function load_menu() {
+    return json_decode(file_get_contents('menu.json'));
+  }
       
   function find_active_menus($menu) {
     $active = [];
@@ -48,11 +52,28 @@
     return $active;
   }
 
+  function find_menu_item($name, $start = null) {
+    if ($start == null)
+      $start = load_menu();
+
+    foreach($start as $item) {
+      if($item->name == $name)
+        return $item;
+      if($item->children) {
+        $res = find_menu_item($name, $item->children);
+        if($res)
+          return $res;
+      }
+    }
+
+    return null;
+  }
+
   function create_menu($start = null) {    
       global $status;
 
       if($start == null)
-        $start = json_decode(file_get_contents('menu.json'));
+        $start = load_menu();
       
       $active = find_active_menus($start);
 

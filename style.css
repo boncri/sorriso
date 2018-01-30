@@ -92,6 +92,7 @@ Sidebar heading:	'Roboto Slab', serif;
 	@import url('css/prettyPhoto.css');
 	@import url('css/prettyPhoto.css');
 	@import url('css/svg-style.css');
+	@import url('css/custom.css');
 /*
 	  ==============================================================
 		   Default CSS
@@ -719,7 +720,7 @@ ul.gt_hdr3_scl_icon li a{
     position: relative;
 }
 .gt_banner_text{
-	font-family: 'Courgette', cursive;
+	font-family: 'CorsivoMontessori', cursive;
 	position: absolute;
 }
 .gt_banner_text h4{
@@ -732,6 +733,7 @@ ul.gt_hdr3_scl_icon li a{
 .gt_banner_text h4.quote{
 	color: #e74100;
 	font-style: italic;
+	font-weight: bold;
 }
 .gt_banner_text h3{
 	font-size: 53px;

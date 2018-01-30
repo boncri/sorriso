@@ -5,14 +5,14 @@
     "link": "index.php"
   },  
   {
-    "name": "chi-siamo",
-    "title": "Chi Siamo",
-    "link": "chi-siamo.php"    
-  },
-  {
     "name": "la-scuola",
     "title": "La Scuola",
     "children": [
+      {
+        "name": "chi-siamo",
+        "title": "Chi Siamo",
+        "link": "chi-siamo.php"    
+      },
       {
         "name": "giornata-tipo",
         "title": "La giornata tipo",
@@ -22,11 +22,6 @@
         "name": "didattica",
         "title": "La didattica",
         "link": "didattica.php"
-      },
-      {
-        "name": "insegnanti",
-        "title": "Gli insegnanti",
-        "link": "insegnanti.php"
       }
     ]
   },
