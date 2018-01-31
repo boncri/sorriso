@@ -65,6 +65,11 @@
         "name": "documenti",
         "title": "Documenti",
         "link": "documenti.php"
+      },
+      {
+        "name": "faq",
+        "title": "FAQ",
+        "link": "faq.php"
       }
     ]
   }
